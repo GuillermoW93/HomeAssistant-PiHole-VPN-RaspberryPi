@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.guillermo",
+        "state": "home",
+        "attributes": {
+          "editable": false,
+          "id": "guillermo",
+          "latitude": 51.7178955078125,
+          "longitude": 5.890048276044391,
+          "gps_accuracy": 35,
+          "source": "device_tracker.iphone",
+          "user_id": "b1c60082d800460493c08555927d98fb",
+          "friendly_name": "Guillermo"
+        },
+        "last_changed": "2022-10-04T20:11:55.762096+00:00",
+        "last_updated": "2022-10-05T07:46:32.203812+00:00",
+        "context": {
+          "id": "01GEKHRJ4BJQ7KTQZRHCT8KM8P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.tuin_gedimd",
+        "state": "unknown",
+        "attributes": {
+          "group_name": "Tuin",
+          "group_type": "room",
+          "name": "Gedimd",
+          "speed": 0.6031746031746031,
+          "brightness": 29.92,
+          "is_dynamic": false,
+          "friendly_name": "Tuin Gedimd"
+        },
+        "last_changed": "2022-10-03T17:16:01.752903+00:00",
+        "last_updated": "2022-10-03T17:16:01.752903+00:00",
+        "context": {
+          "id": "01GEFDHWTRQZ6H5WXHX1V80DMW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.woonkamer_savanne_zonsondergang",
+        "state": "unknown",
+        "attributes": {
+          "group_name": "Woonkamer",
+          "group_type": "room",
+          "name": "Savanne zonsondergang",
+          "speed": 0.6031746031746031,
+          "brightness": 57.87,
+          "is_dynamic": true,
+          "friendly_name": "Woonkamer Savanne zonsondergang"
+        },
+        "last_changed": "2022-10-03T17:16:01.754316+00:00",
+        "last_updated": "2022-10-03T17:16:01.754316+00:00",
+        "context": {
+          "id": "01GEFDHWTTKSXRMG5VG99VM8ZZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 32,
+          "latitude": 51.7178955078125,
+          "longitude": 5.890048276044391,
+          "gps_accuracy": 35,
+          "altitude": 16.18498706817627,
+          "vertical_accuracy": 27.227161407470703,
+          "friendly_name": "iPhone"
+        },
+        "last_changed": "2022-10-05T07:46:32.197064+00:00",
+        "last_updated": "2022-10-05T07:46:32.197064+00:00",
+        "context": {
+          "id": "01GEKHRJ45X06EDSTF8YKHQM9B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_level",
+        "state": "56",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-50",
+          "friendly_name": "iPhone Battery Level"
+        },
+        "last_changed": "2022-10-05T18:53:26.541923+00:00",
+        "last_updated": "2022-10-05T18:53:26.541923+00:00",
+        "context": {
+          "id": "01GEMQXPMD6F6R678MP84X3RJB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 56,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-50",
+          "friendly_name": "iPhone Battery State"
+        },
+        "last_changed": "2022-10-05T11:19:25.027270+00:00",
+        "last_updated": "2022-10-05T18:05:26.393363+00:00",
+        "context": {
+          "id": "01GEMN5SZS51CGDEGN8MJZHYDG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_storage",
+        "state": "7.46",
+        "attributes": {
+          "Available": "3,00 GB",
+          "Available (Important)": "7,80 GB",
+          "Available (Opportunistic)": "4,76 GB",
+          "Total": "63,87 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone Storage"
+        },
+        "last_changed": "2022-10-05T18:54:50.261363+00:00",
+        "last_updated": "2022-10-05T18:54:50.261363+00:00",
+        "context": {
+          "id": "01GEMR08CNNZVH3G1HG1R781TM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "7.46",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone SSID"
+        },
+        "last_changed": "2022-10-05T12:50:28.943862+00:00",
+        "last_updated": "2022-10-05T12:50:28.943862+00:00",
+        "context": {
+          "id": "01GEM353EFYH0HGT44390GSRFF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone BSSID"
+        },
+        "last_changed": "2022-10-05T12:50:28.944932+00:00",
+        "last_updated": "2022-10-05T12:50:28.944932+00:00",
+        "context": {
+          "id": "01GEM353EGD6PYP1QDG6EN05PK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone Connection Type"
+        },
+        "last_changed": "2022-10-03T17:24:14.520996+00:00",
+        "last_updated": "2022-10-03T17:24:14.520996+00:00",
+        "context": {
+          "id": "01GEFE0Y1R6GDGP0JE3N8MANPX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_2",
+        "state": "T-Mobile NL",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "T-Mobile NL",
+          "Current Radio Technology": "5G Non-Standalone",
+          "ISO Country Code": "nl",
+          "Mobile Country Code": "204",
+          "Mobile Network Code": "16",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 2"
+        },
+        "last_changed": "2022-10-03T17:24:14.590880+00:00",
+        "last_updated": "2022-10-04T11:29:22.769615+00:00",
+        "context": {
+          "id": "01GEHC3WAHK8PFFSN0Q8E26E02",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "T-Mobile NL",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_sim_1",
+        "state": "T-Mobile NL",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "T-Mobile NL",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone SIM 1"
+        },
+        "last_changed": "2022-10-03T17:24:14.591764+00:00",
+        "last_updated": "2022-10-03T17:24:14.591764+00:00",
+        "context": {
+          "id": "01GEFE0Y3ZJ39C506TRZY3WVVD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "T-Mobile NL",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_geocoded_location",
+        "state": "Hazeleger 134\n5431 HP Cuijk\nNederland",
+        "attributes": {
+          "Administrative Area": "Noord-Brabant",
+          "Areas Of Interest": "N/A",
+          "Country": "Nederland",
+          "Inland Water": "N/A",
+          "ISO Country Code": "NL",
+          "Locality": "Cuijk",
+          "Location": [
+            51.7178955078125,
+            5.890048276044391
+          ],
+          "Name": "Hazeleger 134",
+          "Ocean": "N/A",
+          "Postal Code": "5431 HP",
+          "Sub Administrative Area": "Cuijk",
+          "Sub Locality": "N/A",
+          "Sub Thoroughfare": "134",
+          "Thoroughfare": "Hazeleger",
+          "Time Zone": "Europe/Amsterdam",
+          "Zones": [
+            "Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone Geocoded Location"
+        },
+        "last_changed": "2022-10-04T20:11:55.897019+00:00",
+        "last_updated": "2022-10-05T07:46:32.393905+00:00",
+        "context": {
+          "id": "01GEKHRJA9FXEVJZMVWFNWFXEC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Hazeleger 134\n5431 HP Cuijk\nNederland",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_last_update_trigger",
+        "state": "Periodic",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone Last Update Trigger"
+        },
+        "last_changed": "2022-10-05T15:48:01.097405+00:00",
+        "last_updated": "2022-10-05T15:48:01.097405+00:00",
+        "context": {
+          "id": "01GEMDA5Y92VJX2Z27413GAQVJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.zolder_energie",
+        "state": "unknown",
+        "attributes": {
+          "group_name": "Zolder",
+          "group_type": "room",
+          "name": "Energie",
+          "speed": 0.6031746031746031,
+          "brightness": null,
+          "is_dynamic": false,
+          "friendly_name": "Zolder Energie"
+        },
+        "last_changed": "2022-10-03T17:16:01.753720+00:00",
+        "last_updated": "2022-10-03T17:16:01.753720+00:00",
+        "context": {
+          "id": "01GEFDHWTS5MY623KN0211W2TV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-10-03T17:24:42.484313+00:00"
+    }
+  ]
+}

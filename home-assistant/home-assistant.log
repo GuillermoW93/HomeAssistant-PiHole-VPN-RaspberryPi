@@ -1,0 +1,36 @@
+2022-10-03 18:18:33.653 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:19:43.316 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from unifi (192.168.1.213). Requested URL: '/auth/token'. (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53)
+2022-10-03 18:19:43.343 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from unifi (192.168.1.213). Requested URL: '/api/websocket'. (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53)
+2022-10-03 18:19:51.373 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:21:32.463 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:21:47.616 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:21:52.332 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [1617397576] Disconnected: Did not receive auth message within 10 seconds
+2022-10-03 18:22:02.750 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:22:17.897 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.1.39 (192.168.1.39). Requested URL: '/auth/token'. (HomeAssistant-Extensions-PushProvider/2022.8 (io.robbie.HomeAssistant.PushProvider; build:2022.387; iOS 16.0.2) Alamofire/5.4.4)
+2022-10-03 18:22:22.723 WARNING (MainThread) [homeassistant.components.websocket_api.http.connection] [1624702280] Disconnected: Did not receive auth message within 10 seconds
+2022-10-03 18:27:14.730 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities scene.zolder_energie or it is/they are currently not available
+2022-10-03 20:28:36.803 WARNING (MainThread) [homeassistant.config_entries] Config entry 'CO2 Signal' for co2signal integration not ready yet; Retrying in background
+2022-10-04 11:16:57.930 ERROR (MainThread) [frontend.js.latest.202209072] :0:0 Script error.
+2022-10-05 13:28:49.209 ERROR (SyncWorker_0) [homeassistant.components.co2signal] Unexpected exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/simplejson/__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.10/site-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python3.10/site-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/co2signal/__init__.py", line 115, in get_data
+    data = CO2Signal.get_latest(
+  File "/usr/local/lib/python3.10/site-packages/CO2Signal/co2signal.py", line 38, in get_latest
+    .json())
+  File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2022-10-05 13:28:49.275 ERROR (MainThread) [homeassistant.components.co2signal] Error fetching co2signal data: 

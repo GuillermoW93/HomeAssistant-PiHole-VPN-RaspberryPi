@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "5561a0c22f387c907605b63300500b85"
+        ],
+        "connections": [
+          [
+            "mac",
+            "54:2a:1b:57:8a:ec"
+          ],
+          [
+            "upnp",
+            "uuid:RINCON_542A1B578AEC01400"
+          ]
+        ],
+        "identifiers": [
+          [
+            "sonos",
+            "RINCON_542A1B578AEC01400"
+          ]
+        ],
+        "manufacturer": "Sonos",
+        "model": "SYMFONISK Table lamp",
+        "name": "Bedroom",
+        "sw_version": "14.16",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "0b6e1446d167df7753ba622e582f50bb",
+        "via_device_id": null,
+        "area_id": "bedroom",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.11:1400/support/review"
+      },
+      {
+        "config_entries": [
+          "5561a0c22f387c907605b63300500b85"
+        ],
+        "connections": [
+          [
+            "upnp",
+            "uuid:RINCON_000E58F7421601400"
+          ],
+          [
+            "mac",
+            "00:0e:58:f7:42:16"
+          ]
+        ],
+        "identifiers": [
+          [
+            "sonos",
+            "RINCON_000E58F7421601400"
+          ]
+        ],
+        "manufacturer": "Sonos",
+        "model": "Play:3",
+        "name": "Living Room",
+        "sw_version": "14.16",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1bbfcf61c37be2da916ac515d9a4fc4c",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.12:1400/support/review"
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:09:ee:9a:0d"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "062e9e69-c917-45e7-8319-0aa44d544e28"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue outdoor wall (1744430P7)",
+        "name": "Tuin achter",
+        "sw_version": "1.93.11",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6700e0ce80fa6a79821b534ff49bc31e",
+        "via_device_id": null,
+        "area_id": "tuin",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:0b:d8:31:1e"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "d5d8b844-10b3-4345-a31f-2f7522aa929a"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue dimmer switch (RWL022)",
+        "name": "Hue dimmer switch 1",
+        "sw_version": "2.45.2",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "91bbd4086d46b40a89687b039f421300",
+        "via_device_id": null,
+        "area_id": "woonkamer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:0c:ac:52:cf"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "c4f5ff19-3696-4a10-8133-1da3b4b43e55"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue color lamp (LCA004)",
+        "name": "Lamp naast de bank",
+        "sw_version": "1.93.11",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a4061cae6604e21c360d47a8ae7e9ee6",
+        "via_device_id": null,
+        "area_id": "woonkamer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:0c:ac:6e:dc"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "4ba5e9d0-fcc4-407d-8797-78908c2f9133"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue color lamp (LCA004)",
+        "name": "TV lamp",
+        "sw_version": "1.93.11",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7895cd6f8c8e5c334e08e88a50d34872",
+        "via_device_id": null,
+        "area_id": "woonkamer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "ec:b5:fa:8f:c9:73"
+          ],
+          [
+            "mac",
+            "00:17:88:01:05:4f:c9:73"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "cd5a8257-64f1-447f-a44b-b2b4d81f60f4"
+          ],
+          [
+            "hue",
+            "ecb5fafffe8fc973"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "BSB002",
+        "name": "Philips hue",
+        "sw_version": "1.53.1953188020",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "03666e0cc12ff2764321e51e80d63d91",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [
+          [
+            "mac",
+            "00:17:88:01:09:d5:e7:88"
+          ]
+        ],
+        "identifiers": [
+          [
+            "hue",
+            "9ae45f94-aa16-436a-9389-3bb098659ffa"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Hue smart plug (LOM007)",
+        "name": "Mechanische ventilatie zolder",
+        "sw_version": "1.93.6",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "c706f99e1ade52901e3496802efbf7dd",
+        "via_device_id": "03666e0cc12ff2764321e51e80d63d91",
+        "area_id": "zolder",
+        "name_by_user": null,
+        "disabled_by": "user",
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hue",
+            "a19924ff-1770-496e-b7ce-c9e52da549b5"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Room",
+        "name": "Tuin",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "ccee4e5bac5c67612b312ab4107b8fb4",
+        "via_device_id": "03666e0cc12ff2764321e51e80d63d91",
+        "area_id": "tuin",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hue",
+            "cf762267-dade-4b67-99c0-27ce9133e888"
+          ]
+        ],
+        "manufacturer": "Signify Netherlands B.V.",
+        "model": "Room",
+        "name": "Woonkamer",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "332b0d6e28f5959993570a3b0b119e4e",
+        "via_device_id": "03666e0cc12ff2764321e51e80d63d91",
+        "area_id": "woonkamer",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e4e9df754c0013ebfe2e9efb2897cbbf"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "p1_monitor",
+            "e4e9df754c0013ebfe2e9efb2897cbbf_smartmeter"
+          ]
+        ],
+        "manufacturer": "P1 Monitor",
+        "model": null,
+        "name": "SmartMeter",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "f8529b2d423a2f3e648ba578155b4575",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.38"
+      },
+      {
+        "config_entries": [
+          "e4e9df754c0013ebfe2e9efb2897cbbf"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "p1_monitor",
+            "e4e9df754c0013ebfe2e9efb2897cbbf_phases"
+          ]
+        ],
+        "manufacturer": "P1 Monitor",
+        "model": null,
+        "name": "Phases",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "8a21271ad42cc2337b0682cdd82c1190",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.38"
+      },
+      {
+        "config_entries": [
+          "e4e9df754c0013ebfe2e9efb2897cbbf"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "p1_monitor",
+            "e4e9df754c0013ebfe2e9efb2897cbbf_settings"
+          ]
+        ],
+        "manufacturer": "P1 Monitor",
+        "model": null,
+        "name": "Settings",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "8cefb2867311cfd1ad1e8a4995164516",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.1.38"
+      },
+      {
+        "config_entries": [
+          "ab3e0b09438fb50653b96b4978384a55"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "79F95D3B-2A3C-44DA-BAA2-9B1EA88CFD26"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone13,1",
+        "name": "iPhone",
+        "sw_version": "16.0.2",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3aa3bc2f9077262661884c06e045a634",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "9341149365d00d3ee72154b35887fbc6"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "co2signal",
+            "9341149365d00d3ee72154b35887fbc6"
+          ]
+        ],
+        "manufacturer": "Tmrow.com",
+        "model": null,
+        "name": "CO2 signal",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "b03b80159b97c492fe31518f63c7c8d2",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.electricitymap.org/"
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "251171a0fc81c5407517de6ef3645115"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hue",
+            "547d6557-8da8-4020-8863-516e6a08e60b"
+          ]
+        ],
+        "id": "2175ca8b94ba04d08d61897c2de02a44",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}

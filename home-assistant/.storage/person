@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Guillermo",
+        "user_id": "b1c60082d800460493c08555927d98fb",
+        "device_trackers": [
+          "device_tracker.iphone"
+        ],
+        "id": "guillermo"
+      }
+    ]
+  }
+}
