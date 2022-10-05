@@ -26,7 +26,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -50,7 +50,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -74,7 +74,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -99,31 +99,31 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.iphone_battery_level",
-        "state": "56",
+        "state": "55",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
           "icon": "mdi:battery-50",
           "friendly_name": "iPhone Battery Level"
         },
-        "last_changed": "2022-10-05T18:53:26.541923+00:00",
-        "last_updated": "2022-10-05T18:53:26.541923+00:00",
+        "last_changed": "2022-10-05T19:07:27.693679+00:00",
+        "last_updated": "2022-10-05T19:07:27.693679+00:00",
         "context": {
-          "id": "01GEMQXPMD6F6R678MP84X3RJB",
+          "id": "01GEMRQC2DX8PXE0HHMVCWK3Z6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 56,
+        "native_value": 55,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -146,34 +146,34 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.iphone_storage",
-        "state": "7.46",
+        "state": "7.42",
         "attributes": {
-          "Available": "3,00 GB",
-          "Available (Important)": "7,80 GB",
-          "Available (Opportunistic)": "4,76 GB",
+          "Available": "2,98 GB",
+          "Available (Important)": "7,78 GB",
+          "Available (Opportunistic)": "4,74 GB",
           "Total": "63,87 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "iPhone Storage"
         },
-        "last_changed": "2022-10-05T18:54:50.261363+00:00",
-        "last_updated": "2022-10-05T18:54:50.261363+00:00",
+        "last_changed": "2022-10-05T19:10:19.867389+00:00",
+        "last_updated": "2022-10-05T19:10:19.867389+00:00",
         "context": {
-          "id": "01GEMR08CNNZVH3G1HG1R781TM",
+          "id": "01GEMRWM6VHT2VF86R0R056889",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "7.46",
+        "native_value": "7.42",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -195,7 +195,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -217,7 +217,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -239,7 +239,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -268,7 +268,7 @@
         "native_value": "T-Mobile NL",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -296,7 +296,7 @@
         "native_value": "T-Mobile NL",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -339,7 +339,7 @@
         "native_value": "Hazeleger 134\n5431 HP Cuijk\nNederland",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
@@ -361,7 +361,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-10-05T19:00:16.361618+00:00"
+      "last_seen": "2022-10-05T19:15:16.362995+00:00"
     },
     {
       "state": {
