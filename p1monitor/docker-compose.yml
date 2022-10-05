@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+
+  p1monitor:
+    hostname: p1mon
+    image: mclaassen/p1mon
+    #stop_grace_period: 1m
+    ports:
+      - 80:80
+    volumes:
+      - ./alldata/data:/p1mon/data
+      - ./alldata/usbdisk:/p1mon/mnt/usb
+      - ./alldata/mnt/ramdisk:/p1mon/mnt/ramdisk
+    tmpfs:
+      - /run
+      - /tmp
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    restart: unless-stopped

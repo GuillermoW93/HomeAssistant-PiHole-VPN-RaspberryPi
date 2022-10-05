@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "energy",
+  "data": {
+    "energy_sources": [
+      {
+        "type": "grid",
+        "flow_from": [
+          {
+            "stat_energy_from": "sensor.smartmeter_energy_consumption_high",
+            "stat_cost": null,
+            "entity_energy_from": "sensor.smartmeter_energy_consumption_high",
+            "entity_energy_price": null,
+            "number_energy_price": 0.38062
+          },
+          {
+            "stat_energy_from": "sensor.smartmeter_energy_consumption_low",
+            "stat_cost": null,
+            "entity_energy_from": "sensor.smartmeter_energy_consumption_low",
+            "entity_energy_price": null,
+            "number_energy_price": null
+          }
+        ],
+        "flow_to": [
+          {
+            "stat_energy_to": "sensor.smartmeter_energy_production_high",
+            "stat_compensation": null,
+            "entity_energy_to": "sensor.smartmeter_energy_production_high",
+            "entity_energy_price": null,
+            "number_energy_price": 0.09
+          },
+          {
+            "stat_energy_to": "sensor.smartmeter_energy_production_low",
+            "stat_compensation": null,
+            "entity_energy_to": "sensor.smartmeter_energy_production_low",
+            "entity_energy_price": null,
+            "number_energy_price": 0.09
+          }
+        ],
+        "cost_adjustment_day": 0.0
+      },
+      {
+        "type": "solar",
+        "stat_energy_from": "sensor.smartmeter_energy_production_high",
+        "config_entry_solar_forecast": null
+      },
+      {
+        "type": "gas",
+        "stat_energy_from": "sensor.smartmeter_gas_consumption",
+        "stat_cost": null,
+        "entity_energy_from": "sensor.smartmeter_gas_consumption",
+        "entity_energy_price": null,
+        "number_energy_price": null
+      },
+      {
+        "type": "solar",
+        "stat_energy_from": "sensor.smartmeter_energy_production_low",
+        "config_entry_solar_forecast": null
+      }
+    ],
+    "device_consumption": []
+  }
+}

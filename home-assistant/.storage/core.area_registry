@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": null
+      },
+      {
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": null
+      },
+      {
+        "name": "Woonkamer",
+        "id": "woonkamer",
+        "picture": null
+      },
+      {
+        "name": "Keuken",
+        "id": "keuken",
+        "picture": null
+      },
+      {
+        "name": "Slaapkamer",
+        "id": "slaapkamer",
+        "picture": null
+      },
+      {
+        "name": "Tuin",
+        "id": "tuin",
+        "picture": null
+      },
+      {
+        "name": "Zolder",
+        "id": "zolder",
+        "picture": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "370b7e422b566850890fb2093d7101c5",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5561a0c22f387c907605b63300500b85",
+        "version": 1,
+        "domain": "sonos",
+        "title": "Sonos",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "sonos",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d85292fe96835500eef2896c019ddb62",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "251171a0fc81c5407517de6ef3645115",
+        "version": 1,
+        "domain": "hue",
+        "title": "Hue Bridge ecb5fa8fc973",
+        "data": {
+          "host": "192.168.1.61",
+          "api_key": "KnitdZGFgvL0zqwyJMhgnYPVBRCjgjona0wNp12B",
+          "api_version": 2
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "ecb5fa8fc973",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e4e9df754c0013ebfe2e9efb2897cbbf",
+        "version": 1,
+        "domain": "p1_monitor",
+        "title": "P1 Monitor",
+        "data": {
+          "host": "192.168.1.38"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ab3e0b09438fb50653b96b4978384a55",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone",
+        "data": {
+          "app_name": "Home Assistant",
+          "os_name": "iOS",
+          "app_id": "io.robbie.HomeAssistant",
+          "os_version": "16.0.2",
+          "supports_encryption": true,
+          "device_name": "iPhone",
+          "device_id": "79F95D3B-2A3C-44DA-BAA2-9B1EA88CFD26",
+          "app_version": "2022.8 (2022.387)",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "eZVqhVeir0ntsxIdKh5MTG:APA91bEB9tKIzDTZ97HXgt9-Fy7_cuxElM_d5HcvxAf1NDm0JEfUbKLw_NuLICR7CXakasfk_GYlk1oZGRZEt8zbZO-UipJk8YTtxFPdhtpCnrI3hBdC-Enw2KRE9cBO36vzj3h_R_WO"
+          },
+          "manufacturer": "Apple",
+          "model": "iPhone13,1",
+          "webhook_id": "bf319aaa4dc267c2fee2c0df2fa8cff1f33da2082fdcb4c07d9b04f5cbb60319",
+          "secret": "226c23559f4d68ac7789aad52a2e3b3633fd737ee9ac42db0c5b450d2b0f8a9d",
+          "user_id": "b1c60082d800460493c08555927d98fb",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-79F95D3B-2A3C-44DA-BAA2-9B1EA88CFD26",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "31a4d2bfccfe477243ec281eab293d17",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "eufy HomeBase2-202D",
+        "data": {
+          "AccessoryIP": "192.168.1.28",
+          "AccessoryPort": 33812
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "6f:51:78:4e:63:00",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "51319a18bfc08b2db3b269bc9dc6cf54",
+        "version": 1,
+        "domain": "upnp",
+        "title": "UGW3",
+        "data": {
+          "mac_address": "b4:fb:e4:83:a0:4f",
+          "location": "http://192.168.1.1:33041/rootDesc.xml",
+          "host": "192.168.1.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:fb75fa0a-fd95-42dd-ac2e-279780097d72::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7f04a2ba941a8901dc41b68a14ce088e",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "Samsung 7 Series (43) (UE43NU7400)",
+        "data": {
+          "host": "192.168.1.19",
+          "mac": "fc:03:9f:01:4c:34",
+          "model": "UE43NU7400"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "0e85ec1c-1469-435a-9249-7923b0149df5",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9341149365d00d3ee72154b35887fbc6",
+        "version": 1,
+        "domain": "co2signal",
+        "title": "CO2 Signal",
+        "data": {
+          "api_key": "JHvdiXkH2Hp4tzeFeq9JBMsoTFxPxC71"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2e301fa1ca1b810c94349fbba4431307",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "XBOXONE",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:b194f38a-74c3-478b-a311-210633934d30",
+        "disabled_by": null
+      }
+    ]
+  }
+}
