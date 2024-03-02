@@ -37,6 +37,13 @@ git clone https://github.com/GuillermoW93/Raspberry-Pi
 
 Next, run the playbooks from my GitHub Repository to have 'HomeAssistant and Unifi Network' available. 
 
+```sh
+sudo docker run -d --restart=always --name="home-assistant" -e "TZ=Europe/Amsterdam" -v /home/docker/home-assistant:/config --net=host homeassistant/raspberrypi4-homeassistant:stable
+```
+
+```sh
+docker run -d --restart=unless-stopped --init -p 8080:8080 -p 8443:8443 -p 3478:3478/udp -p 10001:10001/udp -e TZ='Europe/Amsterdam' -v /opt/unifi:/unifi --name unifi jacobalberty/unifi
+```
 ## Release History
 
 * 0.0.1
