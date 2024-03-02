@@ -43,3 +43,4 @@ Next, run the playbooks from my GitHub Repository to have 'HomeAssistant and Uni
     * Initial release
 * 0.0.2
     * CHANGE: added README.md
+    * CHANGE: P1Monitor, PiHole & HomeAssistant
