@@ -1,11 +1,14 @@
 # Raspberry-Pi
-> Docker containers on Raspberry Pi.
+> Installation guide for running Docker Containers e.g. on Raspberry Pi.
 
 ![](header.png)
 
 ## Installation
 
-Make sure to have a new/clean Raspberry Pi instance:
+Prerequisites:
+1. Make sure to have a new/clean Raspberry Pi instance:
+2. Have an SD-card ~32GB min.
+3. Follow these steps below:
 
 ```sh
 https://www.raspberrypi.com/software/ 
@@ -33,26 +36,10 @@ git clone https://github.com/GuillermoW93/Raspberry-Pi
 ## Usage example
 
 Next, run the playbooks from my GitHub Repository to have 'HomeAssistant and Unifi Network' available. 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 
-* 0.1.0
-    * The first proper release
-    * CHANGE: added README.md
 * 0.0.1
-    * Work in progress
-
-## Meta
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/GuillermoW93/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+    * Initial release
+* 0.0.2
+    * CHANGE: added README.md
