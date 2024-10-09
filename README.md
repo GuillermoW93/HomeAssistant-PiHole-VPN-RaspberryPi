@@ -1,4 +1,4 @@
-# Raspberry-Pi
+# Raspberry-Pi with HomeAssistant/PiHole/VPN
 > Installation guide for running Docker Containers e.g. on Raspberry Pi.
 
 ![](header.png)
